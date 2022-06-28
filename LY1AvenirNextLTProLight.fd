@@ -1,0 +1,24 @@
+\DeclareFontFamily{LY1}{AvenirNextLTProLight}{}
+
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{m}{n}%
+        { <-> LY1--AvenirNextLTPro-Light }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{m}{it}
+        { <-> LY1--AvenirNextLTPro-LightIt }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{m}{sc}%
+        { <-> LY1--AvenirNextLTPro-Light--fsmcp }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{b}{n}
+        { <-> LY1--AvenirNextLTPro-Regular }{}
+
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{bx}{n}%
+        { <-> ssub * AvenirNextLTPro/b/n }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{bx}{it}%
+        { <-> ssub * AvenirNextLTPro/b/it }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTProLight}{bx}{sc}%
+        { <-> ssub * AvenirNextLTPro/b/sc }{}

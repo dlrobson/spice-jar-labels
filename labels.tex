@@ -1,0 +1,71 @@
+% https://tex.stackexchange.com/a/73957
+\documentclass[10pt,letterpaper]{article}
+\usepackage[bindingoffset=0in,
+            left=14.7mm,
+            right=14.7mm,
+            top=17.95mm,
+            bottom=17.95mm,
+            footskip=0in]{geometry}
+
+\usepackage{transparent}
+
+\usepackage[LY1]{fontenc}
+\renewcommand{\rmdefault}{AvenirNextLTPro}
+% \renewcommand{\bfdefault}{b}
+
+\usepackage[letterspace=250]{microtype}
+
+\newcommand\Block[2]{%
+\setlength\fboxsep{0pt}\setlength\fboxrule{0.1pt}% delete
+\fbox{% THIS REMOVES THE LINES
+\begin{minipage}[c][\dimexpr40mm\textheight-2pt\relax][c]{\dimexpr40mm\textwidth-3pt\relax}
+\centering
+\uppercase{#1}
+\par
+\transparent{0.25} \noindent\rule{2.25cm}{0.25pt}
+\par\vspace{7.5pt}
+\scriptsize \transparent{0.6} \uppercase{#2}
+\end{minipage}%
+  }% THIS REMOVES THE LINES
+}
+
+\begin{document}
+\thispagestyle{empty}% optional: suppress page numbering
+\lsstyle
+\noindent
+\Block{allspice}{seasoning}\hfill%
+\Block{basil}{herb}\hfill%
+\Block{bay leaves}{herb}\hfill%
+\Block{cayenne \\ pepper}{spice}\hfill%
+\vfill
+
+\noindent
+\Block{chili powder}{spice blend}\hfill%
+\Block{cardamom}{spice}\hfill%
+\Block{cloves}{spice}\hfill%
+% \Block{cream of tartar}{spice}\hfill%
+\Block{cinnamon}{spice}\hfill%
+\vfill
+
+\noindent
+\Block{cumin}{spice}\hfill%
+\Block{curry \\ powder}{spice blend}\hfill%
+\Block{garlic \\ powder}{seasoning}\hfill%
+\Block{ginger}{spice}\hfill%
+\vfill
+
+\noindent
+\Block{nutmeg}{spice}\hfill%
+\Block{onion powder}{seasoning}\hfill%
+\Block{oregano}{herb}\hfill%
+\Block{paprika}{spice}\hfill%
+\vfill
+
+\noindent
+\Block{red pepper flakes}{seasoning}\hfill%
+\Block{rosemary}{herb}\hfill%
+\Block{thyme}{herb}\hfill%
+\Block{tumeric}{spice}\hfill%
+\vfill
+
+\end{document}

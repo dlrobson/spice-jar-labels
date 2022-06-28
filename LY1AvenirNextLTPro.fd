@@ -1,0 +1,32 @@
+\DeclareFontFamily{LY1}{AvenirNextLTPro}{}
+
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{m}{n}%
+        { <-> LY1--AvenirNextLTPro-Regular }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{m}{it}
+        { <-> LY1--AvenirNextLTPro-It }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{m}{sc}%
+        { <-> LY1--AvenirNextLTPro-Regular--fsmcp }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{b}{n}
+        { <-> LY1--AvenirNextLTPro-Bold }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{b}{it}%
+        { <-> LY1--AvenirNextLTPro-BoldIt }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{b}{sc}%
+        { <-> LY1--AvenirNextLTPro-Bold--fsmcp }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{b}{sc}%
+        { <-> LY1--AvenirNextLTPro-Bold--fsmcp }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{bx}{n}%
+        { <-> ssub * AvenirNextLTPro/b/n }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{bx}{it}%
+        { <-> ssub * AvenirNextLTPro/b/it }{}
+
+\DeclareFontShape{LY1}{AvenirNextLTPro}{bx}{sc}%
+        { <-> ssub * AvenirNextLTPro/b/sc }{}
